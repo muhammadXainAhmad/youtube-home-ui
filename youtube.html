@@ -8,10 +8,76 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
 </head>
 
 <body>
+    <div class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="assets/hamburger-menu.svg">
+            <img class="youtube-logo" src="assets/youtube-logo.svg">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-btn"><img class="search-icon" src="assets/search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+
+            <button class="voice-search-btn">
+                <img class="voice-search-icon" src="assets/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+
+        </div>
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="assets/upload.svg">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="upload-icon-container">
+                <img class="youtube-apps-icon" src="assets/youtube-apps.svg">
+                <div class="tooltip">YouTube Apps</div>
+            </div>
+            <div class="notification-container upload-icon-container">
+                <img class="notifications-icon" src="assets/notifications.svg">
+                <div class="notifications-count">
+                    <p>3</p>
+                </div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <img class="current-user-picture" src="assets/my-channel.png">
+        </div>
+    </div>
+
+    <div class="side-bar">
+        <div class="sidebar-link">
+            <img src="assets/home.svg">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="assets/explore.svg">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="assets/subscriptions.svg">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="assets/originals.svg">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="assets/youtube-music.svg">
+            <div>Youtube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="assets/library.svg">
+            <div>Library</div>
+        </div>
+    </div>
+
     <div class="video-grid">
         <div class="video-preview">
             <div class="thumbnail-row">
